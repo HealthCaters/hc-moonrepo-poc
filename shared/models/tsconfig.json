@@ -8,5 +8,5 @@
       "@hc/shared-models/*": ["src/*"]
     }
   },
-  "include": ["src/**/*.ts"]
+  "include": ["src/**/*"]
 }

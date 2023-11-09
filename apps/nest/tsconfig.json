@@ -14,6 +14,7 @@
     "sourceMap": true,
     "outDir": "../../.moon/cache/types/apps/nest",
     "baseUrl": "./",
+    "rootDir": ".",
     "strictNullChecks": true,
     "noImplicitAny": true,
     "strictBindCallApply": true,
@@ -25,6 +26,10 @@
       "@hc/shared-utils/*": ["../../shared/utils/src/*"]
     }
   },
+  "include": [
+    "src/**/*",
+    "test/**/*"
+  ],
   "references": [
     {
       "path": "../../shared/models"

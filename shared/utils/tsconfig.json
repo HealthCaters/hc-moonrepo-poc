@@ -4,6 +4,7 @@
     "baseUrl": ".",
     "outDir": "../../.moon/cache/types/shared/utils",
     "emitDeclarationOnly": false,
+    "rootDir": "src"
   },
-  "include": ["src/**/*.ts"]
+  "include": ["**/*"]
 }

@@ -22,7 +22,7 @@
       "@hc/vite/*": ["src/*"]
     }
   },
-  "include": ["src"],
+  "include": ["src/**/*", "../../shared/utils/src/**/*"],
   "references": [
     {
       "path": "../../shared/utils"

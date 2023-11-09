@@ -1,7 +1,3 @@
 {
-  "name": "@hc/shared-models",
-  "type": "module",
-  "exports": {
-    "./*": "./src/*"
-  }
+  "name": "@hc/shared-models"
 }
