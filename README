@@ -1,0 +1,51 @@
+1. Apps:
+  - Vite (ReactJS)
+  - Expo (React Native)
+  - Nest (Backend)
+
+2. Packages:
+  - Utils
+  - Models
+  - Etc.
+  - We don't need to publish the packages in NPM Registry, we just want to use them internally in our apps or in other packages
+
+3. Package manager:
+  - PNPM but hoisted (see .npmrc) to work with React Native
+
+4. Vite:
+  - We have configured the alias in vite.config.ts
+  - Target: ES2020
+  - Module: ESNext
+  - To execute:
+    - moon run vite:start
+
+5. Expo:
+  - We have configured metro.config.js
+  - Target: ESNext
+  - Module: Node
+  - To execute:
+    - moon run expo:start
+    - Then press w to launch web version
+    - And error will be thrown in the console
+
+6. Nest:
+  - We would like to use NestCLI with SWC (nest-cli.json)
+  - Target: ES2021
+  - Module: NodeNext
+  - Module resolution: NodeNext
+  - Package type: Module
+  - To execute:
+    - moon run @hc/shared-utils:build
+    - moon run @hc/shared-models:build
+    - Copy package.json of @hc/shared-utils and @hc/shared-models to the outDir (in the cache folder)
+    - Copy package.json of nest app to the outDir (in the cache folder)
+    - moon run nest:start
+
+
+Problems / Questions:
+  - We are going to create a lot of packages because IDE is not suggesting deep imports (any suggestion?)
+  - If we use the hoisted algorithm, the IDE doesn't suggest any import for the packages
+  - Can we avoid compilation step for packages?
+  - As TSC is not able to resolve alias, we are trying SWC in Nest. No success so far, does SWC work with moonrepo? We achieved but with manual step of copying package.json and so on
+  - Can we mix CommonJS and Module types? How?
+  - How should we configure the package.json of our packages?

@@ -1,0 +1,21 @@
+{
+  "extends": "./tsconfig.options.json",
+  "files": [],
+  "references": [
+    {
+      "path": "apps/expo"
+    },
+    {
+      "path": "apps/nest"
+    },
+    {
+      "path": "apps/vite"
+    },
+    {
+      "path": "shared/models"
+    },
+    {
+      "path": "shared/utils"
+    }
+  ]
+}

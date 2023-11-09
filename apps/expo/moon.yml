@@ -1,0 +1,7 @@
+dependsOn:
+  - '@hc/shared-utils'
+  - '@hc/shared-models'
+
+tasks:
+  start:
+    command: "expo start"

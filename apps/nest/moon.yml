@@ -1,0 +1,22 @@
+type: 'application'
+language: 'typescript'
+
+fileGroups:
+  app:
+    - 'nest-cli.*'
+  sources:
+    - 'src/**/*.ts'
+
+dependsOn:
+  - '@hc/shared-utils'
+  - '@hc/shared-models'
+
+tasks:
+  build:
+    command: 'nest build'
+    inputs:
+      - '@group(app)'
+      - '@group(sources)'
+  start:
+    command: "nest start --watch"
+    local: true

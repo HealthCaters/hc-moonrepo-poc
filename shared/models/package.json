@@ -1,0 +1,6 @@
+{
+  "name": "@hc/shared-models",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "type": "module"
+}

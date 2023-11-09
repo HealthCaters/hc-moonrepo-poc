@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.options.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "../../.moon/cache/types/shared/utils",
+    "emitDeclarationOnly": false,
+    "paths": {
+      "@hc/shared-utils/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*.ts"]
+}

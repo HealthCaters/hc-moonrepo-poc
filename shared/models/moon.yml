@@ -1,0 +1,6 @@
+type: 'library'
+language: 'typescript'
+
+tasks:
+  build:
+    command: 'swc src --out-dir ../../.moon/cache/types/shared/models'

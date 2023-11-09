@@ -1,0 +1,38 @@
+{
+  "extends": "../../tsconfig.options.json",
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "emitDeclarationOnly": false,
+    "target": "ES2021",
+    "sourceMap": true,
+    "outDir": "../../.moon/cache/types/apps/nest",
+    "baseUrl": "./",
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "strictBindCallApply": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "paths": {
+      "@hc/nest/*": ["./src/*"],
+      "@hc/shared-models": ["../../shared/models/src/index.ts"],
+      "@hc/shared-models/*": ["../../shared/models/src/*"],
+      "@hc/shared-utils": ["../../shared/utils/src/index.ts"],
+      "@hc/shared-utils/*": ["../../shared/utils/src/*"]
+    }
+  },
+  "references": [
+    {
+      "path": "../../shared/models"
+    },
+    {
+      "path": "../../shared/utils"
+    }
+  ]
+}
