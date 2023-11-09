@@ -3,8 +3,8 @@
   "compilerOptions": {
     "esModuleInterop": true,
     "isolatedModules": true,
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
     "removeComments": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -21,9 +21,7 @@
     "noFallthroughCasesInSwitch": true,
     "paths": {
       "@hc/nest/*": ["./src/*"],
-      "@hc/shared-models": ["../../shared/models/src/index.ts"],
       "@hc/shared-models/*": ["../../shared/models/src/*"],
-      "@hc/shared-utils": ["../../shared/utils/src/index.ts"],
       "@hc/shared-utils/*": ["../../shared/utils/src/*"]
     }
   },

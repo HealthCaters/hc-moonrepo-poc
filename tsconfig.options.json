@@ -1,11 +1,13 @@
 {
-    "compilerOptions": {
-      "composite": true,
-      "declaration": true,
-      "declarationMap": true,
-      "emitDeclarationOnly": true,
-      "incremental": true,
-      "noEmitOnError": true,
-      "skipLibCheck": true,
-    }
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": true,
+    "incremental": true,
+    "noEmitOnError": true,
+    "skipLibCheck": true,
   }
+}

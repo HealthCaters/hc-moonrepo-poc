@@ -13,9 +13,7 @@
     "strict": true,
     "outDir": "../../.moon/cache/types/apps/expo",
     "paths": {
-      "@hc/shared-models": ["../../shared/models/src/index.ts"],
       "@hc/shared-models/*": ["../../shared/models/src/*"],
-      "@hc/shared-utils": ["../../shared/utils/src/index.ts"],
       "@hc/shared-utils/*": ["../../shared/utils/src/*"]
     }
   },

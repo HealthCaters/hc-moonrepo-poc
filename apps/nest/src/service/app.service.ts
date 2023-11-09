@@ -1,5 +1,6 @@
-import { UserAccountModel } from '@hc/shared-models';
-import { isEven, isOdd } from '@hc/shared-utils';
+import { UserAccountModel } from '@hc/shared-models/models/userAccount';
+import { isEven } from '@hc/shared-utils/utils/isEven';
+import { isOdd } from '@hc/shared-utils/utils/isOdd';
 import { Injectable } from '@nestjs/common';
 
 @Injectable()

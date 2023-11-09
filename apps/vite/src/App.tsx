@@ -2,7 +2,8 @@ import { useState } from 'react';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import './App.css';
-import { isEven } from '@hc/shared-utils';
+import { isEven } from '@hc/shared-utils/utils/isEven';
+import { isOdd } from '@hc/shared-utils/utils/isOdd';
 
 function App() {
   const [count, setCount] = useState(0);
