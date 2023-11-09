@@ -28,7 +28,9 @@
   },
   "include": [
     "src/**/*",
-    "test/**/*"
+    "test/**/*",
+    "../../shared/models/src/**/*",
+    "../../shared/utils/src/**/*"
   ],
   "references": [
     {

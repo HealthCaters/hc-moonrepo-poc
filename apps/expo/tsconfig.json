@@ -17,7 +17,7 @@
       "@hc/shared-utils/*": ["../../shared/utils/src/*"]
     }
   },
-  "include": ["**/*"],
+  "include": ["**/*", "../../shared/models/src/**/*", "../../shared/utils/src/**/*"],
   "references": [
     {
       "path": "../../shared/models"
