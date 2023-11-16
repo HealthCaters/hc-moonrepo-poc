@@ -4,8 +4,5 @@
   "type": "application",
   "root": "./",
   "sourceRoot": "src",
-  "compilerOptions": {
-    "builder": "swc",
-    "tsConfigPath": "tsconfig.build.json"
-  }
+  "entryFile": "./apps/nest/src/main"
 }

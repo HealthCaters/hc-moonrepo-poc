@@ -11,7 +11,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@hc/vite': path.join(__dirname, './src/'),
-      '@hc/shared-utils': path.join(__dirname, '../../shared/utils/src/'),
+      '@hc/shared': path.join(__dirname, '../../packages/shared/src/'),
     },
   },
 });

@@ -17,7 +17,7 @@ projects:
     nest: 'apps/nest'
     vite: 'apps/vite'
   globs:
-    - 'shared/*'
+    - 'packages/*'
 
 constraints:
   enforceProjectTypeRelationships: true

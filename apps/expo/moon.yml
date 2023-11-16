@@ -1,6 +1,5 @@
 dependsOn:
-  - '@hc/shared-utils'
-  - '@hc/shared-models'
+  - '@hc/shared'
 
 tasks:
   start:

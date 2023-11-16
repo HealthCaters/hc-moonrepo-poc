@@ -8,8 +8,7 @@ fileGroups:
     - 'src/**/*.ts'
 
 dependsOn:
-  - '@hc/shared-utils'
-  - '@hc/shared-models'
+  - '@hc/shared'
 
 tasks:
   build:
@@ -18,5 +17,5 @@ tasks:
       - '@group(app)'
       - '@group(sources)'
   start:
-    command: "nest start --watch"
+    command: 'nest start --watch'
     local: true

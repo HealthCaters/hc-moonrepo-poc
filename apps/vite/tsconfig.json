@@ -18,18 +18,14 @@
     "noFallthroughCasesInSwitch": true,
     "outDir": "../../.moon/cache/types/apps/vite",
     "paths": {
-      "@hc/shared-utils": ["../../shared/utils/src/index.ts"],
-      "@hc/shared-utils/*": ["../../shared/utils/src/*"],
-      "@hc/vite/*": ["src/*"]
+      "@hc/vite/*": ["src/*"],
+      "@hc/shared/*": ["../../packages/shared/src/*"]
     }
   },
-  "include": ["src"],
+  "include": ["src", "../../packages/shared/src"],
   "references": [
     {
-      "path": "../../shared/utils"
-    },
-    {
-      "path": "./tsconfig.node.json"
+      "path": "../../packages/shared"
     }
   ]
 }

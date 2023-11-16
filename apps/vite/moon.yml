@@ -2,7 +2,7 @@ type: 'application'
 language: 'typescript'
 
 dependsOn:
-  - '@hc/shared-utils'
+  - '@hc/shared'
 
 tasks:
   start:
