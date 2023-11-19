@@ -6,7 +6,7 @@
     "baseUrl": ".",
     "outDir": "../../.moon/cache/types/packages/shared",
     "paths": {
-      "@hc/shared/*": ["./src/*"]
+      "@hc/shared/*": ["./*"]
     }
   }
 }

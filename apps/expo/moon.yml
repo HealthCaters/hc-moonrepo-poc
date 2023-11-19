@@ -3,4 +3,4 @@ dependsOn:
 
 tasks:
   start:
-    command: "expo start"
+    command: 'expo start'

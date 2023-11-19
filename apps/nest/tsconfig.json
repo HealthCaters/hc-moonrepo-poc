@@ -25,7 +25,12 @@
       "@hc/shared/*": ["../../packages/shared/src/*"]
     }
   },
-  "include": ["./src", "../../packages/shared/src"],
+  "include": [
+    "./src",
+    "../../packages/shared/src",
+    "../../packages/shared/models",
+    "../../packages/shared/utils"
+  ],
   "references": [
     {
       "path": "../../packages/shared"

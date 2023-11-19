@@ -11,6 +11,20 @@
     "noEmitOnError": true,
     "skipLibCheck": true,
     "strict": true,
-    "outDir": "../../.moon/cache/types/apps/expo"
-  }
+    "outDir": "../../.moon/cache/types/apps/expo",
+    "paths": {
+      "@hc/shared/*": ["../../packages/shared/src/*"]
+    }
+  },
+  "include": [
+    "./",
+    "../../packages/shared/src",
+    "../../packages/shared/models",
+    "../../packages/shared/utils"
+  ],
+  "references": [
+    {
+      "path": "../../packages/shared"
+    }
+  ]
 }
