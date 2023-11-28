@@ -1,12 +1,13 @@
 {
   "extends": "../../tsconfig.options.json",
-  "include": ["**/*"],
+  "include": ["./src"],
   "references": [],
   "compilerOptions": {
     "baseUrl": ".",
+    "rootDir": ".",
     "outDir": "../../.moon/cache/types/packages/shared",
     "paths": {
-      "@hc/shared/*": ["./*"]
+      "@hc/shared/*": ["./src/*"]
     }
   }
 }
