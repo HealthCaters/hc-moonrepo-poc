@@ -18,16 +18,11 @@
     "noFallthroughCasesInSwitch": true,
     "outDir": "../../.moon/cache/types/apps/vite",
     "paths": {
-      "@hc/vite/*": ["src/*"],
-      "@hc/shared/*": ["../../packages/shared/src/*"]
+      "@hc/shared/*": ["../../packages/shared/src/*"],
+      "@hc/vite/*": ["src/*"]
     }
   },
-  "include": [
-    "src",
-    "../../packages/shared/src",
-    "../../packages/shared/src/models",
-    "../../packages/shared/src/utils"
-  ],
+  "include": ["../../packages/shared/**/*", "src"],
   "references": [
     {
       "path": "../../packages/shared"

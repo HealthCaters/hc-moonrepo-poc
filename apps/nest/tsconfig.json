@@ -13,7 +13,7 @@
     "target": "ES2021",
     "sourceMap": true,
     "outDir": "../../.moon/cache/types/apps/nest",
-    "baseUrl": "./",
+    "baseUrl": ".",
     "rootDir": "../../",
     "strictNullChecks": true,
     "noImplicitAny": true,
@@ -25,12 +25,7 @@
       "@hc/shared/*": ["../../packages/shared/src/*"]
     }
   },
-  "include": [
-    "./src",
-    "../../packages/shared/src",
-    "../../packages/shared/src/models",
-    "../../packages/shared/src/utils"
-  ],
+  "include": ["../../packages/shared/**/*", "./src"],
   "references": [
     {
       "path": "../../packages/shared"

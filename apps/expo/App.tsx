@@ -1,6 +1,9 @@
+import { UserAccountModel } from '@hc/shared/models/userAccount';
+import { isEven } from '@hc/shared/utils/isEven';
+
+import { isOdd } from '@hc/shared/utils/isOdd';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import { UserAccountModel, isEven, isOdd } from '@hc/shared';
 
 export default function App() {
   return (

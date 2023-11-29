@@ -2,7 +2,5 @@
   "$schema": "https://json.schemastore.org/nest-cli",
   "collection": "@nestjs/schematics",
   "type": "application",
-  "root": "./",
-  "sourceRoot": "src",
   "entryFile": "./apps/nest/src/main"
 }
