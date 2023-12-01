@@ -16,6 +16,7 @@ projects:
     expo: 'apps/expo'
     nest: 'apps/nest'
     vite: 'apps/vite'
+    vite5: 'apps/vite5'
   globs:
     - 'packages/*'
 

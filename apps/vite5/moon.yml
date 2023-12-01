@@ -1,0 +1,13 @@
+type: 'application'
+language: 'typescript'
+
+dependsOn:
+  - '@hc/shared'
+
+tasks:
+  start:
+    command: 'vite'
+  build:
+    command: 'vite build'
+  preview:
+    command: 'vite preview'

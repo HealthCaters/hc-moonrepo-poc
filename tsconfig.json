@@ -12,6 +12,9 @@
       "path": "apps/vite"
     },
     {
+      "path": "apps/vite5"
+    },
+    {
       "path": "packages/shared"
     }
   ]

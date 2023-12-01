@@ -2,7 +2,6 @@
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "baseUrl": ".",
-    "rootDir": ".",
     "composite": true,
     "declaration": true,
     "declarationMap": true,
@@ -14,18 +13,11 @@
     "strict": true,
     "outDir": "../../.moon/cache/types/apps/expo",
     "paths": {
-      "@hc/expo/*": [
-        "./*"
-      ],
-      "@hc/shared/*": [
-        "../../packages/shared/src/*"
-      ]
+      "@hc/expo/*": ["./*"],
+      "@hc/shared/*": ["../../packages/shared/src/*"]
     }
   },
-  "include": [
-    ".",
-    "../../packages/shared/**/*"
-  ],
+  "include": [".", "../../packages/shared/**/*"],
   "references": [
     {
       "path": "../../packages/shared"
