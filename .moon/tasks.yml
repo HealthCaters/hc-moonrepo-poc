@@ -3,3 +3,23 @@ tasks:
     command: 'tsc --build --verbose'
   format:
     command: 'prettier --write .'
+  lint:
+    command:
+      - 'eslint'
+      - '--ext'
+      - '.js,.jsx,.ts,.tsx'
+      - '--fix'
+    inputs:
+      # Source files
+      - 'src/**/*'
+      # Other config files
+      - '*.config.*'
+      # Project configs, any format, any depth
+      - '**/.eslintrc.*'
+      # Root configs, any format
+      - '/.eslintignore'
+      - '/.eslintrc.*'
+      # TypeScript support
+      - 'tsconfig.json'
+      - '/tsconfig.eslint.json'
+      - '/tsconfig.options.json'

@@ -1,6 +1,5 @@
 import { UserAccountModel } from '@hc/shared/models/userAccount';
 import { isEven } from '@hc/shared/utils/isEven';
-
 import { isOdd } from '@hc/shared/utils/isOdd';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
@@ -25,4 +24,5 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  otro: {},
 });

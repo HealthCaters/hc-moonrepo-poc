@@ -16,12 +16,13 @@ node_modules
 dist
 dist-ssr
 *.local
+.eslintcache
 
 # Editor directories and files
 .vscode/*
+!.vscode/settings.json
 !.vscode/extensions.json
 .idea
-.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
@@ -50,6 +51,14 @@ web-build/
 
 # local env files
 .env*.local
+.env
 
 # typescript
 *.tsbuildinfo
+
+# Tests
+coverage/
+.nyc_output/
+
+# eb publish file
+Dockerrun.aws.json
