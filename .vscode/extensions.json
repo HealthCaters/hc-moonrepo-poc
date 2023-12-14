@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    "streetsidesoftware.code-spell-checker",
+    "crowdin.vscode-crowdin",
+    "dbaeumer.vscode-eslint",
+    "github.vscode-pull-request-github",
+    "eamodio.gitlens",
+    "vincaslt.highlight-matching-tag",
+    "ms-vsliveshare.vsliveshare",
+    "possan.nbsp-vscode",
+    "esbenp.prettier-vscode",
+    "yoavbls.pretty-ts-errors",
+    "rangav.vscode-thunder-client",
+    "gruntfuggly.todo-tree",
+    "pflannery.vscode-versionlens"
+  ]
+}
